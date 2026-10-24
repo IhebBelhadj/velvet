@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "repository": {
+    "id": "velvet",
+    "name": "Velvet",
+    "key": "ed25519:q8xnXoc7RZtSmZoNi9KmDQSnxpEKq3AKrV15aFVL4IQ="
+  },
+  "generatedAt": "2026-10-23T19:46:52.530Z",
+  "plugins": [
+    {
+      "id": "velvet",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "url": "https://ihebbelhadj.github.io/velvet/velvet-1.0.0.ppx",
+          "sha256": "61150665db580342ae95b697600b3a05343096da2a5e88552bd3779ec16167fd",
+          "size": 14118,
+          "releasedAt": "2026-10-23",
+          "api": {
+            "server": "^1",
+            "nav": "^1",
+            "ui": "^1"
+          },
+          "audience": "adults",
+          "permissions": {
+            "network": [
+              "apibay.org",
+              "therarbg.to",
+              "therarbg.com",
+              "api.theporndb.net",
+              "api.themoviedb.org"
+            ],
+            "storage": "1MB",
+            "secrets": [
+              "tmdbApiKey",
+              "theporndbApiKey"
+            ],
+            "play": true,
+            "sources": [
+              "magnet"
+            ]
+          },
+          "lifecycle": "stable"
+        }
+      ],
+      "name": "Velvet",
+      "publisher": {
+        "name": "Playpex"
+      },
+      "icon": "https://ihebbelhadj.github.io/velvet/velvet-icon.svg",
+      "listing": {
+        "summary": "Adult films: a catalog from TMDB studios or ThePornDB, and torrent releases ranked by seeders.",
+        "disclaimer": "Adult content. Hidden from kids profiles and never shared over DLNA. Streaming copyrighted content via torrents may be illegal where you live.",
+        "license": "See licence.md",
+        "categories": [
+          "catalog",
+          "sources"
+        ]
+      }
+    }
+  ]
+}
