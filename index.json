@@ -5,7 +5,7 @@
     "name": "Velvet",
     "key": "ed25519:q8xnXoc7RZtSmZoNi9KmDQSnxpEKq3AKrV15aFVL4IQ="
   },
-  "generatedAt": "2026-10-23T19:46:52.530Z",
+  "generatedAt": "2026-10-24T10:20:43.792Z",
   "plugins": [
     {
       "id": "velvet",
@@ -13,9 +13,9 @@
         {
           "version": "1.0.0",
           "url": "https://ihebbelhadj.github.io/velvet/velvet-1.0.0.ppx",
-          "sha256": "61150665db580342ae95b697600b3a05343096da2a5e88552bd3779ec16167fd",
-          "size": 14118,
-          "releasedAt": "2026-10-23",
+          "sha256": "54d05758617d128683258c07bc619e0abb14e6629b52398fb1e9afda1f4d959d",
+          "size": 14040,
+          "releasedAt": "2026-10-24",
           "api": {
             "server": "^1",
             "nav": "^1",
