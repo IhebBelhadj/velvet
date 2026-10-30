@@ -5,11 +5,43 @@
     "name": "Velvet",
     "key": "ed25519:q8xnXoc7RZtSmZoNi9KmDQSnxpEKq3AKrV15aFVL4IQ="
   },
-  "generatedAt": "2026-10-24T10:20:43.792Z",
+  "generatedAt": "2026-10-30T12:09:02.705Z",
   "plugins": [
     {
       "id": "velvet",
       "versions": [
+        {
+          "version": "1.1.0",
+          "url": "https://ihebbelhadj.github.io/velvet/velvet-1.1.0.ppx",
+          "sha256": "e8ed154444ea43f3252b1eb8e2323ad5faef137f6ebb0b2584d7558cd2a9fdc2",
+          "size": 16841,
+          "releasedAt": "2026-10-30",
+          "api": {
+            "server": "^1",
+            "nav": "^1",
+            "ui": "^1"
+          },
+          "audience": "adults",
+          "permissions": {
+            "network": [
+              "apibay.org",
+              "therarbg.to",
+              "therarbg.com",
+              "api.theporndb.net",
+              "api.themoviedb.org"
+            ],
+            "storage": "1MB",
+            "secrets": [
+              "tmdbApiKey",
+              "theporndbApiKey"
+            ],
+            "play": true,
+            "sources": [
+              "magnet"
+            ]
+          },
+          "lifecycle": "stable"
+        },
         {
           "version": "1.0.0",
           "url": "https://ihebbelhadj.github.io/velvet/velvet-1.0.0.ppx",
