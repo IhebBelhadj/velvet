@@ -5,11 +5,51 @@
     "name": "Velvet",
     "key": "ed25519:q8xnXoc7RZtSmZoNi9KmDQSnxpEKq3AKrV15aFVL4IQ="
   },
-  "generatedAt": "2026-10-30T12:09:02.705Z",
+  "generatedAt": "2026-11-08T16:03:43.098Z",
   "plugins": [
     {
       "id": "velvet",
       "versions": [
+        {
+          "version": "1.2.0",
+          "url": "https://ihebbelhadj.github.io/velvet/velvet-1.2.0.ppx",
+          "sha256": "55f76707006f4617fd3a000de16f43789cf108178821b8848c6a5a4825eb5223",
+          "size": 22303,
+          "releasedAt": "2026-11-08",
+          "api": {
+            "server": "^1",
+            "nav": "^1",
+            "ui": "^1"
+          },
+          "audience": "adults",
+          "permissions": {
+            "network": [
+              "apibay.org",
+              "therarbg.to",
+              "therarbg.com",
+              "api.theporndb.net",
+              "api.themoviedb.org",
+              "sex-empere.org",
+              "morencius.com",
+              "playmogo.com",
+              "*.acek-cdn.com",
+              "*.dramiyos-cdn.com",
+              "*.cloudatacdn.com"
+            ],
+            "storage": "1MB",
+            "secrets": [
+              "tmdbApiKey",
+              "theporndbApiKey"
+            ],
+            "play": true,
+            "sources": [
+              "magnet",
+              "http",
+              "hls"
+            ]
+          },
+          "lifecycle": "stable"
+        },
         {
           "version": "1.1.0",
           "url": "https://ihebbelhadj.github.io/velvet/velvet-1.1.0.ppx",
@@ -81,12 +121,13 @@
       },
       "icon": "https://ihebbelhadj.github.io/velvet/velvet-icon.svg",
       "listing": {
-        "summary": "Adult films: a catalog from TMDB studios or ThePornDB, and torrent releases ranked by seeders.",
-        "disclaimer": "Adult content. Hidden from kids profiles and never shared over DLNA. Streaming copyrighted content via torrents may be illegal where you live.",
-        "license": "See licence.md",
+        "summary": "Adult films: a catalog from TMDB studios or ThePornDB, torrent releases ranked by seeders, and films streamed from Sex-Empire.",
+        "disclaimer": "Adult content. Hidden from kids profiles and never shared over DLNA. Streaming copyrighted content via torrents or unlicensed streaming sites may be illegal where you live.",
+        "license": "PolyForm-Noncommercial-1.0.0",
         "categories": [
           "catalog",
-          "sources"
+          "sources",
+          "streams"
         ]
       }
     }
