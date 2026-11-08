@@ -5,11 +5,58 @@
     "name": "Velvet",
     "key": "ed25519:q8xnXoc7RZtSmZoNi9KmDQSnxpEKq3AKrV15aFVL4IQ="
   },
-  "generatedAt": "2026-11-08T16:41:32.781Z",
+  "generatedAt": "2026-11-08T17:11:08.317Z",
   "plugins": [
     {
       "id": "velvet",
       "versions": [
+        {
+          "version": "1.4.0",
+          "url": "https://ihebbelhadj.github.io/velvet/velvet-1.4.0.ppx",
+          "sha256": "ece157d983e36f37db0a78f1b372b6fab2ea1f2f05e4a362e45799c6cd70a1af",
+          "size": 25634,
+          "releasedAt": "2026-11-08",
+          "api": {
+            "server": "^1.1",
+            "nav": "^1",
+            "ui": "^1"
+          },
+          "audience": "adults",
+          "permissions": {
+            "network": [
+              "apibay.org",
+              "therarbg.to",
+              "therarbg.com",
+              "api.theporndb.net",
+              "api.themoviedb.org",
+              "sex-empere.org",
+              "morencius.com",
+              "playmogo.com",
+              "*.acek-cdn.com",
+              "*.dramiyos-cdn.com",
+              "*.cloudatacdn.com",
+              "thesextube.net",
+              "luluvido.com",
+              "luluvdoo.com",
+              "luluvdo.com",
+              "lulustream.com",
+              "*.tnmr.org",
+              "*.cdn-tnmr.org"
+            ],
+            "storage": "1MB",
+            "secrets": [
+              "tmdbApiKey",
+              "theporndbApiKey"
+            ],
+            "play": true,
+            "sources": [
+              "magnet",
+              "http",
+              "hls"
+            ]
+          },
+          "lifecycle": "stable"
+        },
         {
           "version": "1.3.0",
           "url": "https://ihebbelhadj.github.io/velvet/velvet-1.3.0.ppx",
@@ -161,7 +208,7 @@
       },
       "icon": "https://ihebbelhadj.github.io/velvet/velvet-icon.svg",
       "listing": {
-        "summary": "Adult films: a catalog from TMDB studios or ThePornDB, torrent releases ranked by seeders, and films streamed from Sex-Empire.",
+        "summary": "Adult films: TMDB studios or ThePornDB, torrents ranked by seeders, films from Sex-Empire and studio videos from TheSexTube.",
         "disclaimer": "Adult content. Hidden from kids profiles and never shared over DLNA. Streaming copyrighted content via torrents or unlicensed streaming sites may be illegal where you live.",
         "license": "PolyForm-Noncommercial-1.0.0",
         "categories": [
