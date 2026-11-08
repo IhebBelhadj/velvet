@@ -5,11 +5,60 @@
     "name": "Velvet",
     "key": "ed25519:q8xnXoc7RZtSmZoNi9KmDQSnxpEKq3AKrV15aFVL4IQ="
   },
-  "generatedAt": "2026-11-08T17:11:08.317Z",
+  "generatedAt": "2026-11-08T21:35:36.053Z",
   "plugins": [
     {
       "id": "velvet",
       "versions": [
+        {
+          "version": "1.5.0",
+          "url": "https://ihebbelhadj.github.io/velvet/velvet-1.5.0.ppx",
+          "sha256": "0409b333cd4b9a38f5ac2da78e3e7db3477cabb2b320617c057cc3f1eefa3f98",
+          "size": 33009,
+          "releasedAt": "2026-11-08",
+          "api": {
+            "server": "^1.1",
+            "nav": "^1",
+            "ui": "^1"
+          },
+          "audience": "adults",
+          "permissions": {
+            "network": [
+              "apibay.org",
+              "therarbg.to",
+              "therarbg.com",
+              "api.theporndb.net",
+              "api.themoviedb.org",
+              "sex-empere.org",
+              "morencius.com",
+              "playmogo.com",
+              "*.acek-cdn.com",
+              "*.dramiyos-cdn.com",
+              "*.cloudatacdn.com",
+              "thesextube.net",
+              "luluvido.com",
+              "luluvdoo.com",
+              "luluvdo.com",
+              "lulustream.com",
+              "*.tnmr.org",
+              "*.cdn-tnmr.org",
+              "xhamster.com",
+              "*.xhcdn.com"
+            ],
+            "storage": "1MB",
+            "secrets": [
+              "tmdbApiKey",
+              "theporndbApiKey"
+            ],
+            "play": true,
+            "sources": [
+              "magnet",
+              "http",
+              "hls"
+            ]
+          },
+          "lifecycle": "stable"
+        },
         {
           "version": "1.4.0",
           "url": "https://ihebbelhadj.github.io/velvet/velvet-1.4.0.ppx",
