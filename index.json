@@ -5,11 +5,66 @@
     "name": "Velvet",
     "key": "ed25519:q8xnXoc7RZtSmZoNi9KmDQSnxpEKq3AKrV15aFVL4IQ="
   },
-  "generatedAt": "2026-11-12T19:29:03.074Z",
+  "generatedAt": "2026-11-13T11:27:04.199Z",
   "plugins": [
     {
       "id": "velvet",
       "versions": [
+        {
+          "version": "1.6.4",
+          "url": "https://ihebbelhadj.github.io/velvet/velvet-1.6.4.ppx",
+          "sha256": "fcf7dc76a457a0ab7f017d297ffdd3aaf681e321c56f8c839a10dd04cc3faea7",
+          "size": 37745,
+          "releasedAt": "2026-11-13",
+          "api": {
+            "server": "^1.5",
+            "nav": "^1",
+            "ui": "^1"
+          },
+          "audience": "adults",
+          "permissions": {
+            "network": [
+              "apibay.org",
+              "therarbg.to",
+              "therarbg.com",
+              "api.theporndb.net",
+              "api.themoviedb.org",
+              "sex-empere.org",
+              "morencius.com",
+              "playmogo.com",
+              "*.acek-cdn.com",
+              "*.dramiyos-cdn.com",
+              "*.cloudatacdn.com",
+              "thesextube.net",
+              "luluvid.com",
+              "luluvido.com",
+              "luluvdoo.com",
+              "luluvdo.com",
+              "lulustream.com",
+              "*.tnmr.org",
+              "*.cdn-tnmr.org",
+              "xhamster.com",
+              "*.xhcdn.com"
+            ],
+            "images": [
+              "sex-empire.org",
+              "*.metadataapi.net",
+              "*.theporndb.net"
+            ],
+            "storage": "1MB",
+            "secrets": [
+              "tmdbApiKey",
+              "theporndbApiKey"
+            ],
+            "play": true,
+            "sources": [
+              "magnet",
+              "http",
+              "hls"
+            ]
+          },
+          "lifecycle": "stable"
+        },
         {
           "version": "1.6.3",
           "url": "https://ihebbelhadj.github.io/velvet/velvet-1.6.3.ppx",
@@ -463,7 +518,7 @@
       },
       "icon": "https://ihebbelhadj.github.io/velvet/velvet-icon.svg",
       "listing": {
-        "summary": "Adult films: TMDB studios or ThePornDB, torrents ranked by seeders, films from Sex-Empire and studio videos from TheSexTube.",
+        "summary": "Adult films: TMDB studios or ThePornDB, torrents ranked by seeders, films from Sex-Empire and videos from TheSexTube.",
         "disclaimer": "Adult content. Hidden from kids profiles and never shared over DLNA. Streaming copyrighted content via torrents or unlicensed streaming sites may be illegal where you live.",
         "license": "PolyForm-Noncommercial-1.0.0",
         "categories": [
