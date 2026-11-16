@@ -5,11 +5,67 @@
     "name": "Velvet",
     "key": "ed25519:q8xnXoc7RZtSmZoNi9KmDQSnxpEKq3AKrV15aFVL4IQ="
   },
-  "generatedAt": "2026-11-13T11:27:04.199Z",
+  "generatedAt": "2026-11-16T11:49:22.988Z",
   "plugins": [
     {
       "id": "velvet",
       "versions": [
+        {
+          "version": "1.6.5",
+          "url": "https://ihebbelhadj.github.io/velvet/velvet-1.6.5.ppx",
+          "sha256": "194d5a50fa3923dadd02d1af612787bfa814564c405158ae6f8a9b572aff69e1",
+          "size": 37806,
+          "releasedAt": "2026-11-16",
+          "api": {
+            "server": "^1.5",
+            "nav": "^1",
+            "ui": "^1"
+          },
+          "audience": "adults",
+          "permissions": {
+            "network": [
+              "apibay.org",
+              "therarbg.to",
+              "therarbg.com",
+              "api.theporndb.net",
+              "api.themoviedb.org",
+              "sex-empere.org",
+              "morencius.com",
+              "playmogo.com",
+              "*.acek-cdn.com",
+              "*.dramiyos-cdn.com",
+              "*.cloudatacdn.com",
+              "thesextube.net",
+              "luluvid.com",
+              "luluvido.com",
+              "luluvdoo.com",
+              "luluvdo.com",
+              "lulustream.com",
+              "lplaygo.com",
+              "*.tnmr.org",
+              "*.cdn-tnmr.org",
+              "xhamster.com",
+              "*.xhcdn.com"
+            ],
+            "images": [
+              "sex-empire.org",
+              "*.metadataapi.net",
+              "*.theporndb.net"
+            ],
+            "storage": "1MB",
+            "secrets": [
+              "tmdbApiKey",
+              "theporndbApiKey"
+            ],
+            "play": true,
+            "sources": [
+              "magnet",
+              "http",
+              "hls"
+            ]
+          },
+          "lifecycle": "stable"
+        },
         {
           "version": "1.6.4",
           "url": "https://ihebbelhadj.github.io/velvet/velvet-1.6.4.ppx",
